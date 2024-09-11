@@ -1,0 +1,166 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f8fafb;
+}
+
+p {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.containerMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerTlttle {
+    width: 100%;
+    height: auto;
+    padding: 0px 5px 20px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.containerTlttle p {
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(218, 161, 167);
+    font-weight: 500;
+}
+
+.conteinerConteudo {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.conteinerConteudo p {
+    font-size: 20px;
+    font-weight:500;
+}
+.doisJunto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.cargaHoraria{
+    padding-top:2px ;
+}
+
+.cuidadora, .idoso, .doisJunto, .relatorioTodo {
+    margin-bottom: 20px;
+    padding: 3px 0px 3px 0px;
+}
+
+.cuidadora p, .idoso p, .data p, .cargaHoraria p, .relatorioTodo p {
+    margin: 0 0 5px 0;
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #000; 
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; 
+
+}
+
+input[type="text"], input[type="date"]{
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    outline: none; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+}
+
+textarea{
+    border-radius: 10.4px;
+    height: 150px;
+}
+
+.btnEnviar {
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: rgb(218, 161, 167);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btnEnviar:hover {
+    background-color: #c49196;
+}
+
+
+
+
+@media screen and (max-width: 700px){
+    .containerTlttle p {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .containerTlttle p {
+        font-size: 40px;
+    }
+
+    .cargaHoraria {
+        width: 100%; 
+    }
+
+    .data{
+        width: 100%;
+    }
+
+    .relatorios {
+        padding: 20px 40px;
+    }
+
+    .alert {
+        padding: 10px;
+        margin: 20px auto;
+        width: 50%;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+    }
+    .alert-success {
+        color: #155724;
+        background-color: #d4edda;
+    }
+
+}

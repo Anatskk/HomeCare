@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f8fafb;
+  }
+  
+  .comeco{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .comeco p {
+    color: rgb(218, 161, 167);
+    font-weight: 700;
+    font-size: 35px;
+    padding-left: 30px;
+  }
+
+ 
+.conteudo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.titulo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.titulo p{
+   padding-left: 30px;
+   font-size: 25px;
+}
